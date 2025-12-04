@@ -1,5 +1,16 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+.custom-shadow {
+  background: linear-gradient(225deg, #ffffff, #e6e6e6);
+  box-shadow: -29px 29px 32px #16784b, 29px -29px 32px #1c965d;
+}
+
+.form {
+  background: linear-gradient(225deg, #1b905a, #177a4c);
+  box-shadow: -29px 29px 32px #16784b, 29px -29px 32px #1c965d;
+  font-family: "Inter", sans-serif;
+}
+
+#suit-bottom {
+  transform: rotate(180deg);
 }
